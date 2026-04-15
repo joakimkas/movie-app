@@ -36,7 +36,7 @@ main {
 .movie-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 3rem;
   padding: 2rem 0;
 }
 
@@ -83,3 +83,14 @@ main {
   font-size: 0.95rem;
   margin: 0.3rem 0;
 }
+
+.movie-image {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.movie-card--highlight {
+  border: 2px solid gold;
+}
+
